@@ -164,3 +164,8 @@ In our index file.
     }
 </style>
 ```
+
+We've finished our tutorial.
+I hope it'll be helpful for you.
+
+[Code on Codepen](https://codepen.io/barakat-turki/pen/JrrjMB).
