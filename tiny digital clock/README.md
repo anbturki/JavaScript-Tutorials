@@ -9,7 +9,7 @@ In this tutorial, I will show you how to build a digital clock using pure JavaSc
     
 **Create the file `index.html`**
 
-```
+```html
 <!doctype html>
 <html lang="en">
     <head>
@@ -35,7 +35,7 @@ var timeEl = document.getElementById('time');
 ```
 Now we need to create a function that get the current time and format the time  as "hh:mm:ss tt"
 
-```
+```js
 function getCurrentTime(){
     // Get the current time
     var dateOBJ = new Date();
@@ -75,7 +75,7 @@ We've done the first `function` that gets the current time and return it formatt
 
 Now, every second get the current time, so, we'll use a built-in method  `setInterval(function, milliseconds) `  calls a function or evaluates an expression at specified intervals (in milliseconds).
 
-```
+```js
 // We added this for work on page opend
 var time = getCurrentTime();
 timeEl.innerText = time;
@@ -91,7 +91,7 @@ setInterval(function(){
 ```
 
 we've finished our `Js` file it should be looks like.
-```
+```js
 var timeEl = document.getElementById('time');
 // We added this for work on page opend
 var time = getCurrentTime();
@@ -149,7 +149,7 @@ Now, try it open the `index.html` file in a browser and you will see the followi
 Wow, so far so good, now we need to style our pretty clock.
 In our index file.
 
-``` 
+```html
 <style>
     body{
         background-size: cover;
