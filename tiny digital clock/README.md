@@ -30,7 +30,7 @@ In this tutorial, I will show you how to build a digital clock using pure JavaSc
 Now we have created starter Html file, **let's** create the JavaScript file.
 
 Let's first create a reference for the `h1` tag.
-```
+```js
 var timeEl = document.getElementById('time');
 ```
 Now we need to create a function that get the current time and format the time  as "hh:mm:ss tt"
